@@ -3,3 +3,5 @@ We need a simple function that determines if a plural is needed or not. It shoul
 You only need to worry about english grammar rules for this kata, where anything that isn't singular (one of something), it is plural (not one of something).
 
 All values will be positive integers or floats, or zero.
+
+https://www.codewars.com/kata/52ceafd1f235ce81aa00073a/ruby

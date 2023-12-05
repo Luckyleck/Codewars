@@ -1,4 +1,4 @@
-def panagram?(string)
+def pangram?(string)
   splitters = Regexp.union([' ', '.'])
   chars = string.split(splitters).join('').downcase
   alphabet = ('a'..'z').to_a.join
@@ -10,7 +10,7 @@ def panagram?(string)
   return alphabet.empty?
 end
 
-puts(panagram?('The quick brown fox jumps over the lazy dog'))
+puts(pangram?('The quick brown fox jumps over the lazy dog')) # true
 
 def pangram?(string)
   ('a'..'z').all? { |x| string.downcase.include? (x) } 

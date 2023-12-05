@@ -1,5 +1,4 @@
 def is_pangram(string):
-    alphabet = set("abcdefghijklmnopqrstuvwxyz")
     chars = set(char.lower() for char in string if char.isalpha())
 
     return len(chars) == 26
